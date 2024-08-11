@@ -114,6 +114,9 @@ body::before {
     body {
         padding: 10px;
     }
+    .container {
+        padding: 10px;
+    }
     .container .box .app {
         font-size: 1.5em;
     }
