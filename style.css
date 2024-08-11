@@ -110,17 +110,15 @@ body::before {
     user-select: none;
 }
 
-@media only screen and (max-width: 358px) {
+@media only screen and (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
     .container .box .app {
         font-size: 1.5em;
     }
-    .box .dev {
-        font-size: 0.9em;
-    }
-    .content .contentBox #category {
-        font-size: 0.9em;
-    }
-    .content #author {
+    .container .content {
+        padding: 0;
         font-size: 0.9em;
     }
 }
