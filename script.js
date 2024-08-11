@@ -45,7 +45,7 @@ let getQuote = () => {
                 filteredQuotes = data.data
             } else {
                 filteredQuotes = data.data.filter(
-                    quote => quote.category === selectedCatergory
+                    quote => quote.category === selectedCategory
                 )
             }
 
