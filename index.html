@@ -10,11 +10,28 @@
 <body>  
     <div class="container">
         <div class="box">
-            <h2>Quotes Generator</h2>
+            <h2 class="app">Quotes Generator<span class="version">v1.24.08.11</span></h2>
             <p class="dev">ZernCodes - Renz Pajarito</p>
         </div>
-        <p id="quote">It's impossible to avoid hurting someone's feelings, but it is possible to avoid hurting them physically.</p>
-        <p id="author">- Renz Pajarito</p>
+        <div class="content">
+            <p id="quote">It's impossible to avoid hurting someone's feelings, but it is possible to avoid hurting them physically.</p>
+            <div class="contentBox">
+                <select id="category">
+                    <option value="all">All Categories</option>
+                    <option value="motivation">Motivation</option>
+                    <option value="love">Love</option>
+                    <option value="life">Life</option>
+                    <option value="sad">Sad</option>
+                    <option value="philosophy">Philosophy</option>
+                    <option value="happiness">Happiness</option>
+                    <option value="relationship">Relationship</option>
+                    <option value="hope">Hope</option>
+                    <option value="success">Success</option>
+                    <option value="knowledge">Knowledge</option>
+                </select>
+                <p id="author">- Renz Pajarito</p>
+            </div>
+        </div>
         <button id="generateQuotes">Generate</button>
     </div>
 
