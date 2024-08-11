@@ -69,6 +69,7 @@ body::before {
 
 .content #quote {
     font-weight: 500;
+    text-align: center;
 }
 
 .content .contentBox {
@@ -118,10 +119,16 @@ body::before {
         padding: 10px;
     }
     .container .box .app {
-        font-size: 1.5em;
+        font-size: 1.4em;
+    }
+    .box .dev {
+        font-size: 0.85em;
     }
     .container .content {
         padding: 0;
         font-size: 0.9em;
+    }
+    .content #quote {
+      padding: 0.8em;
     }
 }
